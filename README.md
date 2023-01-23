@@ -1,6 +1,7 @@
+:robot:
 # Portfolio website 
 
-Built with Tailwind, React.js, Material UI
+Built with Tailwind, React.js, and Material UI
 __________________________
 
 # Setup
@@ -21,3 +22,14 @@ or
 ```
 yarn start
 ```
+
+# Run production
+```
+npm run build
+```
+or 
+```
+yarn build
+```
+
+# Colour palette 
