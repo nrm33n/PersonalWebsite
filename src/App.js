@@ -5,18 +5,21 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import Sidebar from "./components/Sidebar";
 import Typewriter from "typewriter-effect";
 
 export default function App() {
-
   return (
-    <main className="text-gray-400 bg-green-900 body-font">
+    <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
+      <Sidebar />
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
-      <Contact />
+      {/*<Testimonials />
+      <Contact />*/}
     </main>
+   
   );
 }
+

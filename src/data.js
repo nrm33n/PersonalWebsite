@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "EvolutionAI",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "A study on Karl Sims' evolving virtual creatues using PyBullet physics engine and genetic algorithm to create biomorphic, evolving creatues.",
+    image: "./KarlSims.gif",
+    link: "https://github.com/nrm33n/EvolutionAI",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Advisorbot",
+    subtitle: "C++",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "Virtual assistant, analyses and predicts crypto market trends using statistical analysis",
+    image: "./advisorbot.gif",
+    link: "https://github.com/nrm33n/AdvisorBot",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "HermesBot",
+    subtitle: "Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "A Rasa-based chatbot that translates from English to other languages.",
+    image: "./rasabot.gif",
+    link: "https://github.com/nrm33n/HermesBot",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Piano Hands",
+    subtitle: "JavaScript",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Tracks hand movement which triggers graphis. Can be connected to sound library to allow a user to 'play' an instrument in midair",
+    image: "./pianohands.gif",
+    link: "https://github.com/nrm33n/PianoHands",
   },
 ];
 

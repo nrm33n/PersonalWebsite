@@ -19,7 +19,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />
           </div>
           <p className="mb-8 leading-relaxed">
-            I'm a computer person with a lot of interests. Big fan of data science. 
+            I'm a computer person with lots of interests. Big fan of data science. 
           </p>
           <div className="flex justify-center">
             <a
