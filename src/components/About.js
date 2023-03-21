@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect';
 import IconButton from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import YGO from "./YGO.js";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
           <div className="title-font sm:text-4xl text-4xl mb-4 font-large text-white">
             <Typewriter
               options={{
-                strings: ['Hey.. Narmeen here.', 'Welcome'],
+                strings: ['Hey.. Narmeen here'],
                 autoStart: true,
                 loop: true,
               }}
@@ -34,7 +35,8 @@ export default function About() {
             className="object-cover object-center rounded"
             alt="hero"
             src="./me.jpg"
-          />
+            />
+          {/*<YGO />*/}
         </div>
       </div>
     </section>
