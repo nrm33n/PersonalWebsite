@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from 'typewriter-effect';
 import IconButton from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
-import YGO from "./YGO.js";
+import Flippy from "./metacomponents/Flippy.js"
 
 export default function About() {
   return (
@@ -21,6 +21,8 @@ export default function About() {
           </div>
           <p className="mb-8 leading-relaxed">
             I'm a computer person with lots of interests. Big fan of data science. 
+            Outside of work, I'm an internationally exhibited artist and classically trained pianist. 
+            I like modding video games and play a lot of Yu-Gi-Oh!
           </p>
           <div className="flex justify-center">
             <a
@@ -30,13 +32,8 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded"
-            alt="hero"
-            src="./me.jpg"
-            />
-          {/*<YGO />*/}
+        <div className="">
+          <Flippy />
         </div>
       </div>
     </section>

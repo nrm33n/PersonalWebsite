@@ -13,7 +13,7 @@ export default function Projects() {
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are some projects I've built. You can hover over them for more information or 
-            click to go directly to their source code. You can also just check 
+            click to go directly to their source code. Feel free to check 
             out my <a href="https://github.com/nrm33n">GitHub</a> for more.
           </p>
         </div>
