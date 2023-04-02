@@ -33,6 +33,23 @@ export const projects = [
   },
 ];
 
+export const extraprojects = [
+  {
+    title: "Bastaki",
+    tech: " ",
+    desc: " ", 
+    img: " ",
+    link: " ",
+  },
+  {
+    title: " ",
+    tech: " ",
+    desc: " ", 
+    img: " ",
+    link: " ",
+  },
+];
+
 export const testimonials = [
   {
     quote:

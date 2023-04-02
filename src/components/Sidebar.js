@@ -1,4 +1,5 @@
 import React from "react";
+import { CodeIcon, ChipIcon, DesktopComputerIcon } from "@heroicons/react/solid";
 
 export default function Sidebar() {
     return (

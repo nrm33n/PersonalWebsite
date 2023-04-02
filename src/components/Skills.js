@@ -12,7 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I've spent a lot of time on machine learning and data science so I use a lot of Python
+            I spend a lot of time on machine learning and data science so I use a lot of Python
             but I've also designed and developed software using JavaScript, C++, C#, and Rust.
             Here are some specific libraries and technologies I have experience with. 
           </p>

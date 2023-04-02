@@ -19,16 +19,23 @@ export default function About() {
             />
             <br className="hidden lg:inline-block" />
           </div>
-          <p className="mb-8 leading-relaxed">
-            I'm a computer person with lots of interests. Big fan of data science. 
+          <p className="mb-8 leading-relaxed text-lg">
+            <p>
+            I'm a computer person with a lot of interests. Big fan of data science, MLAI, and human-computer interaction.
+            </p> 
             Outside of work, I'm an internationally exhibited artist and classically trained pianist. 
-            I like modding video games and play a lot of Yu-Gi-Oh!
+            I like modding (+ playing) video games and spend a lot of Yu-Gi-Oh!
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-around">
             <a
-              href="#contact"
+              href="mailto: nrmn@pm.me"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Contact
+                
+              {/* envelope heroku icon */}
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+
             </a>
           </div>
         </div>

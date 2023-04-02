@@ -4,15 +4,17 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@heroicons/react": "^1.0.1",
-    "@mui/icons-material": "^5.11.0",
-    "@mui/material": "^5.11.5",
-    "react": "^17.0.2",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "react": "^18.1.0",
     "react-dom": "^17.0.2",
     "react-hash-scroll": "^1.4.7",
-    "react-scripts": "^1.1.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "^3.0.0",
     "typewriter-effect": "^2.19.0"
   },
   "scripts": {
@@ -31,5 +33,17 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
