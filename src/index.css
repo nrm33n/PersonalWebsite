@@ -16,7 +16,8 @@
   .carousel-slide {
     max-width: 1000px;
     margin: 0 auto;
-    /*padding-bottom: 60px;*/
+    padding-bottom: 60px;
+    
   }
   
   .carousel-inner {

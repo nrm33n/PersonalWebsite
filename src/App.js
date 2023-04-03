@@ -5,7 +5,7 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Projects2 from "./components/Projects2";
+import MoreProjects from "./components/MoreProjects";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
 import Sidebar from "./components/Sidebar";
@@ -19,7 +19,7 @@ export default function App() {
       <About />
       <Projects />
       <Skills />
-      <Projects2 />
+      <MoreProjects />
       <Footer />
       {/*<Testimonials />
       <Contact />*/}
